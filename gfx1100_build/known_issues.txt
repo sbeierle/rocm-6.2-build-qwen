@@ -19,3 +19,12 @@
 - Solution: Ensure correct ROCm-specific Torch installed via:
   ```bash
   pip install torch torchvision --index-url https://download.pytorch.org/whl/rocm6.1
+
+
+
+Issue: FlashAttention warnings (experimental SDPA)
+Solution: Ignore for now; ROCm 6.2 partial support only. Functionality not critical.
+
+Issue: torch.cuda.is_available() returns False
+Solution: Double-check all export variables, especially HSA_OVERRIDE_GFX_VERSION and HIP settings.
+
