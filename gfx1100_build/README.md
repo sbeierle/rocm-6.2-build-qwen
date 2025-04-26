@@ -15,8 +15,8 @@ This folder documents the successful installation, configuration, and validation
 | `rocm_7900xtx_setup.md`      | Full setup description and validation notes |
 | `venv_setup.sh`             | Script to set up Python venv and install Torch |
 | `environment_checklist.md`  | Post-installation validation checklist     |
-| `hip_hello_world/` (optional) | Minimal HIP project for testing          |
-| `screenshots/` (optional)    | Screenshots of tests and GPU detection    |
+| `hip_hello_world/`            | Minimal HIP project for testing          |
+| `screenshots/`              | Screenshots of tests and GPU detection    |
 
 ## 📌 Important
 This validation is part of a larger effort to enable **affordable, AMD-based AI research setups** for universities, security research groups, and emerging economies.
