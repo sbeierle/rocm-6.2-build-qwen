@@ -41,3 +41,5 @@ echo "Torch CUDA availability check:"
 python3 -c "import torch; print('Torch GPU available:', torch.cuda.is_available())"
 
 echo "✅ All steps finished!"
+#do not forget to chmod this script chmod +x start_full_validation.sh
+#./start_full_validation.sh
