@@ -1,0 +1,3 @@
+cd hip_hello_world
+make
+./hip_hello_world
