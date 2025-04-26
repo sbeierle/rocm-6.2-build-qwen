@@ -1,3 +1,21 @@
+---
+# Important: Gfx1100 Build Folder
+
+The `gfx1100_build/` folder is an essential part of this project.  
+It contains a full ROCm 6.2 validation and setup blueprint specifically for AMD RX 7900 XTX GPUs (gfx1100 architecture).
+
+It provides:
+- Minimal HIP tests
+- ROCm device verification
+- Full Python venv setup for Torch
+- Step-by-step screenshots for confirmation
+
+👉 If you want to **fully validate or replicate** this build, make sure to follow the instructions inside `gfx1100_build/`!
+
+---
+
+
+
 
 ## 🎯 Project Mission – ROCm as Ethical LLM Backbone
 
