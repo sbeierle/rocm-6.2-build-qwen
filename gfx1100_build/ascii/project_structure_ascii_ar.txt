@@ -1,0 +1,24 @@
+نظرة عامة على هيكل المشروع (gfx1100_build)
+
+gfx1100_build/
+├── ascii/
+│   ├── project_structure_ascii_ar.txt     # نظرة عامة نصية على مجلدات المشروع
+│   └── setup_steps_ascii_ar.txt            # خطوات الإعداد بنمط ASCII
+├── screenshots/
+│   ├── bash_env_exports.png
+│   ├── hip_hello_world_success.png
+│   ├── rocminfo_output.png
+│   ├── start_full_validation.sh.png
+│   ├── torch_cuda_available.png
+│   └── torch_installation.png
+├── hip_hello_world/
+│   ├── hip_hello_world.cpp                # نواة HIP صغيرة لاختبار الجهاز
+│   ├── Makefile                           # ملف Make بسيط للتجميع
+│   └── expected_output.txt                # الخرج المتوقع من النواة
+├── start_full_validation.sh               # سكربت اختبار التحقق الكامل
+├── venv_setup.sh                           # سكربت إنشاء بيئة افتراضية وتثبيت Torch
+├── bash_test                               # أوامر Bash للتحقق اليدوي
+├── rocm_7900xtx_setup.md                   # ملاحظات التحقق والتثبيت الكاملة
+├── environment_checklist.md                # قائمة مراجعة الإعداد
+├── known_issues.txt                        # مشكلات معروفة وحلولها
+├── README.md                               # ملف README للمجلد gfx1100_build

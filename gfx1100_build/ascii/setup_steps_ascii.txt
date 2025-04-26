@@ -1,0 +1,32 @@
+ROCm 6.2 Full Setup Chain (gfx1100 / RX 7900 XTX)
+
+[System Preparation]
+    └── Install Ubuntu 24.10 (Kernel 6.8.x)
+
+[Install ROCm]
+    ├── Add ROCm APT Repo
+    ├── Install ROCm Dev Packages (hip-runtime-amd, rocm-hip-runtime, etc.)
+    └── Confirm installation (/opt/rocm structure)
+
+[Environment Setup]
+    ├── export ROCM_HOME=/opt/rocm
+    ├── export HIP_PATH=/opt/rocm
+    ├── export PATH=$ROCM_HOME/bin:$PATH
+    ├── export LD_LIBRARY_PATH=$ROCM_HOME/lib:$ROCM_HOME/lib64:$LD_LIBRARY_PATH
+    ├── export HSA_OVERRIDE_GFX_VERSION=11.0.0
+    └── Install rocm-smi and rocminfo utilities
+
+[Python / Torch Environment]
+    ├── Create venv (venv_setup.sh)
+    ├── Activate venv
+    ├── Install torch, safetensors, transformers, accelerate
+
+[Validation]
+    ├── Run rocminfo → detect gfx1100
+    ├── Run rocm-smi → GPU detected
+    ├── Run HIP Hello World → compile and execute
+    ├── Run Torch CUDA Available Test → expect TRUE
+    └── Screenshots collected for documentation
+
+[Optional]
+    └── Upload validation results to GitHub

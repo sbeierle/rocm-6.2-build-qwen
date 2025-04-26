@@ -1,0 +1,24 @@
+Project Structure Overview (gfx1100_build)
+
+gfx1100_build/
+├── ascii/
+│   ├── project_structure_ascii.txt       # ASCII overview of project folders
+│   └── setup_steps_ascii.txt              # Step-by-step ASCII for validation process
+├── screenshots/
+│   ├── bash_env_exports.png
+│   ├── hip_hello_world_success.png
+│   ├── rocminfo_output.png
+│   ├── start_full_validation.sh.png
+│   ├── torch_cuda_available.png
+│   └── torch_installation.png
+├── hip_hello_world/
+│   ├── hip_hello_world.cpp                # Minimal HIP kernel for device test
+│   ├── Makefile                           # Simple HIP compilation
+│   └── expected_output.txt                # Expected output from the kernel
+├── start_full_validation.sh               # Full automatic validation script
+├── venv_setup.sh                           # Venv creation & Torch install script
+├── bash_test                               # Manual bash sequence to validate setup
+├── rocm_7900xtx_setup.md                   # Complete validation notes and highlights
+├── environment_checklist.md                # Quick checklist after installation
+├── known_issues.txt                        # Known issues and workarounds
+├── README.md                               # Core README for gfx1100_build folder
