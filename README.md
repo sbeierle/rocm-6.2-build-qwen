@@ -17,6 +17,7 @@ It provides:
 
 
 
+
 ## 🎯 Project Mission – ROCm as Ethical LLM Backbone
 
 This repository is part of a broader research initiative that aims to **demonstrate the viability of a fully working AMD ROCm-based inference environment** for powerful LLMs like Qwen 7B – running on standard high-end desktop hardware (e.g., RX 7900 XTX).  
