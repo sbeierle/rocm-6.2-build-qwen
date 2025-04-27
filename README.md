@@ -1,4 +1,4 @@
-description: |
+
   # Important: Gfx1100 Build Folder
   
   The `gfx1100_build/` folder is an essential part of this project.
