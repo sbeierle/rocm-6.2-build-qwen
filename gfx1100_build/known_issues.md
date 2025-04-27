@@ -1,7 +1,7 @@
 
 ---
 
-### 4. ⚠️ Known Issues and Solutions (neu formuliert)
+### 4. ⚠️ Known Issues and Solutions 
 
 ```markdown
 # Known Issues and Solutions (gfx1100 ROCm 6.2)
